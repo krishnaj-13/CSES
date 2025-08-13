@@ -1,5 +1,5 @@
-a = int(input())
-for i in range (1,a+1,1):
+n = int(input())
+for i in range (1,n+1,1):
     total = 0
     total = int(((i*i)*((i*i) -1))/2)
     a = i - 2
